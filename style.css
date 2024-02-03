@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    height: 200px;
+    margin-right: 100px;
+}
+
+.mario-luigi {
+
+    height: 500px;
+}
+
+.caixa-principal {
+
+    width: 50%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+
+
+}
+
+.whatsapp img {
+    height: 50px;
+    bottom: 40px;
+    position: fixed;
+    right: 35px;
+
+}
+
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    height: 110vh;
+    justify-content: space-around;
+    color: white;
+
+
+}
+
+.cabeça-mario img {
+    height: 75px;
+    margin: 30px;
+
+
+}
+
+.cabeça-mario {
+    display: flex;
+    align-items: centser;
+    gap: 30px;
+    max-height: 50px;
+
+
+
+}
+
+.cabeça-mario a {
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.cabeça-mario a:hover {
+    color: rgb(158, 20, 20);
+    font-size: 25px;
+    transition: 0.5s;
+
+
+
+}
+
+.caixa-mae button:hover {
+    color: black;
+    transition: 0s;
+
+
+
+}
+
+.fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 20px;
+    top: 210px;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+
+}
+
+textarea {
+    width: 198px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+
+
+
+
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.mascara {
+    z-index: -1;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(16, 19, 26, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.Mascara-mario2 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(16, 19, 26, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+
+
+button {
+
+    background-color: rgb(197, 14, 14);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+body {
+    height: 100vh;
+
+
+}
